@@ -1,0 +1,72 @@
+ .counter {
+  position: absolute;
+  top: 10px;
+  left: 0px;
+}
+.count {
+  height: 10px;
+  width: 150px;
+  
+  font-weight: bold;
+   
+}
+button {
+  margin-top: 70px;
+  
+   
+   
+  font-weight: bold;
+  
+  font-size: 20px;
+  color: rgb(7, 7, 7);
+  
+}
+.count h1 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 80px;
+  margin-top: 30px;
+}
+table {
+  position: absolute;
+  top: 0px;
+  left: 750px;
+  height: 500px;
+  width: 500px;
+  font-size: 20px;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  font-size: 20px;
+  border-collapse: collapse;
+  border-color: rgb(0, 0, 0);
+  border-width: 5px;
+  color: rgb(10, 10, 10);
+}
+.circle {
+  position: absolute;
+  top: 530px; /* Adjust the top position based on your design */
+  left: 100px;
+}
+
+.ball {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+   
+}
+.bounce {
+  animation: bounce 1s infinite ease-in-out;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateX(-100px);
+  }
+  50% {
+    transform: translateX(200px); /* Adjust the horizontal distance as needed */
+  }
+}
